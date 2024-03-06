@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bodoni Moda", serif;
+color:#043e3d;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    padding-top: 9.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(145deg, #c0cbc3 -461%, transparent);
+}
+
+img{
+    width: 100%;
+}
+
+
+.topRect{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background-color: #0a5b5e;
+    height: 282px;
+    width: 217px;
+}
+
+.topCirc{
+    position: absolute;
+    left: -189px;
+    top: 73px;
+    background-color: #0a5b5e;
+    height: 318px;
+    width: 367px;
+    border-radius: 200%;
+}
+
+
+
+
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+}
+
+.logo{
+    width: 31px;
+    top: -9px;
+    position: absolute;
+}
+
+.logo>span{
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    font-size: 22px;
+    color: white;
+}
+
+.navText{
+    position: absolute;
+    top: 3px;
+    left: 13.7%;
+}
+
+.navText>p{
+    font-size: 16px;
+    display: inline;
+    padding: 4px 15px;
+    border-radius: 28px;
+    margin: 0px 9px;
+    letter-spacing: 0.3;
+    transition: all .1s;
+    font-weight: 500;
+}
+
+.navText>p:hover{
+    cursor: pointer;
+    background-color:#043e3d;
+    color:white;
+    transform: scale(1.1);
+}
+
+.bar{
+    position: absolute;
+    top: 17px;
+    right: 27%;
+    width: 24.5%;
+    height: 2px;
+    background-color: #3c7675;
+}
+
+.nav>h3{
+    display: inline;
+    position: absolute;
+    right: 16%;
+    top: 2px;
+}
+
+.mainBody{
+    width: 100%;
+    position: relative;
+}
+
+.mainImgBox{
+    display: inline-block;
+    width: 23%;
+    height: 67%;
+    /* margin-right: 10px; */
+    position: relative;
+}
+
+.mainCirc{
+    background-color: #cfd9da;
+    /* position: absolute; */
+    width: 238px;
+    height: 238px;
+    border-radius: 114px;
+}
+
+.mainRect{
+    background-color: #cfd9da;
+    position: absolute;
+    top: 114px;
+    width: 238px;
+    height: 200px;
+
+}
+
+
+.mainImg{
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    right: 33px;
+    height: 79%;
+}
+
+.textBox{
+    position: absolute;
+    width: 57%;
+    top: 0;
+    left: 27.2%;
+}
+
+.textBox>h1{
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    word-spacing: 3.3px;
+    color: black;
+    width: 494px;
+    line-height: 34px;
+}
+
+.textBox>p{
+    width: 65%;
+    margin: 13px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 1.2;
+    word-spacing: 3px;
+}
+
+.button{
+    padding: 0px 23px;
+    padding-bottom: 4px ;
+    width: fit-content;
+    background-color: #0a5b5e;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    transition: all .5s;
+}
+
+.button:hover{
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.secondImgDiv{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.secondInnImgDiv
+{
+    display: inline-block;
+    width: 24%;
+    height: 10%;
+    margin-right: 36px;
+}
+
+
+.secondInnImgDiv>img{
+    height: 183px;
+}
+.plantPriceBox{
+    position: absolute;
+    /* top: 6px; */
+    right: 0px;
+    top: 42px;
+    width: 170px;
+    text-align: center;
+}
+
+.price{
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 8px 0;
+    padding-top: 0px;
+    background-color: #0a5c5a;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 17px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.flash{
+    width: 320px;
+    height: 11px;
+    position: relative;
+    top: -32px;
+    right: 3px;
+    background-color: #ffffff61;
+    transform: rotate(50deg);
+    transition: all 1s;
+}
+
+.price:hover .flash{
+    right: 250px;
+}
+
+.price>p{
+    word-spacing: -3px;
+    font-size: 20px;
+    color:white;
+}
+
+.plantNameBox{
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 7px 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e5ece5;
+    transition: all .2s;
+}
+
+.plantNameBox:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.bottomDiv{
+    height: 83px;
+    background-color: #c3cec6;
+    margin-top: 16px;
+    padding: 7px 30px;
+    width: 83%;
+}
+
+.bottomDiv>h2{
+    font-size: 19px;
+}
+
+
+.bottomDiv>p{
+    font-size: 8px;
+    width: 148px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.contactInfo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: end;
+    padding-bottom: 17px;
+    color:#0a5c5a;
+    font-weight: 500;
+}
+
+.contactTxt{
+    font-size: 14px;
+}
+
+.phoneTxt{
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.mailTxt{
+    font-size: 14px;
+}
+
+.lowerGraphics{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 197px;
+}
+
+.spots{
+    position: absolute;
+    right: 0;
+    bottom: 11px;
+    z-index: 1;
+    width: 68px;
+    height: 89px;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 197px;
+    height: 68px;
+}
+
+.leaf{
+    position: absolute;
+    width: 136px;
+    height: 54px;
+    bottom: 0;
+    left: -9px;
+}
