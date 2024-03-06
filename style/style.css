@@ -10,9 +10,8 @@ color:#043e3d;
 .main{
     width: 100%;
     height: 100vh;
+    padding: 0 10%;
     padding-top: 9.5%;
-    padding-left: 8%;
-    padding-right: 8%;
     background-image: linear-gradient(145deg, #c0cbc3 -461%, transparent);
 }
 
@@ -27,7 +26,7 @@ img{
     top: 0;
     background-color: #0a5b5e;
     height: 282px;
-    width: 217px;
+    width: 232px;
 }
 
 .topCirc{
@@ -36,7 +35,7 @@ img{
     top: 73px;
     background-color: #0a5b5e;
     height: 318px;
-    width: 367px;
+    width: 411px;
     border-radius: 200%;
 }
 
@@ -66,7 +65,7 @@ img{
 .navText{
     position: absolute;
     top: 3px;
-    left: 13.7%;
+    left: 12.7%;
 }
 
 .navText>p{
@@ -90,8 +89,8 @@ img{
 .bar{
     position: absolute;
     top: 17px;
-    right: 27%;
-    width: 24.5%;
+    right: 33%;
+    width: 20.2%;
     height: 2px;
     background-color: #3c7675;
 }
@@ -99,7 +98,8 @@ img{
 .nav>h3{
     display: inline;
     position: absolute;
-    right: 16%;
+    font-size: 22px;
+    right: 20%;
     top: 2px;
 }
 
@@ -186,7 +186,7 @@ img{
 
 .secondImgDiv{
     width: 100%;
-    margin-top: 32px;
+    margin-top: 40px;
 }
 
 .secondInnImgDiv
@@ -194,12 +194,12 @@ img{
     display: inline-block;
     width: 24%;
     height: 10%;
-    margin-right: 36px;
+    margin-right: 43px;
 }
 
 
 .secondInnImgDiv>img{
-    height: 183px;
+    height: 175px;
 }
 .plantPriceBox{
     position: absolute;
